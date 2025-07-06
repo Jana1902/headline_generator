@@ -1,12 +1,43 @@
-# React + Vite
+# SEO Business Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React web application that generates SEO headlines and displays business data like ratings and reviews.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Business Info Form:** Enter business name and location
+- **SEO Headline Generation:** Generate an SEO-friendly headline dynamically
+- **Ratings & Reviews:** Show simulated Google rating and review count
+- **Modern UI:** Tailwind CSS styling
+- **Secure API Communication:** CORS + credentials support
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📘 Technologies Used
+
+### 🎨 Frontend
+- **React** - JavaScript library for building user interfaces
+- **Vite** - Fast development build tool and dev server
+- **Tailwind CSS** - Utility-first CSS framework for styling
+- **Zustand** - Simple state management solution
+- **Axios** - HTTP client for making API requests
+- **React Hot Toast** - Beautiful notifications and toasts
+- **Lucide React** - Icon library for modern icons
+
+---
+
+## 📂 Project Structure
+.
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── InputForm.jsx
+│ │ └── DisplayCard.jsx
+│ ├── context/
+│ │ └── index.js
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── app.css
+├── tailwind.config.js
+└── package.json
