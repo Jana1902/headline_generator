@@ -33,7 +33,6 @@ A modern React web application that generates SEO headlines and displays busines
 **Purpose:** Submit business name and location
 
 **Request Body:**
-```json
 {
   "name": "Business Name",
   "location": "Location"
