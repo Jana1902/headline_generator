@@ -33,6 +33,7 @@ A modern React web application that generates SEO headlines and displays busines
 **Purpose:** Submit business name and location
 
 **Request Body:**
+```
 {
   "name": "Business Name",
   "location": "Location"
@@ -43,9 +44,10 @@ Response:
   "reviews": 120,
   "headline": "Your SEO Headline"
 }
-GET /regenerate-headline?name=<name>&location=<location>
-Purpose: Generate a new SEO headline for the submitted business
-
+```
+### GET `/regenerate-headline?name=<name>&location=<location>`
+**Purpose:** Generate a new SEO headline for the submitted business
+```
 Response:
 {
   "headline": "New SEO Headline"
