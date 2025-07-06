@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "http://localhost:5001",
+  baseURL: "https://api-headline-creator.onrender.com",
   withCredentials: true,
 });
