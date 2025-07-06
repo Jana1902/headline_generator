@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6366f1; /* Primary indigo for main CTA button */
+  --color-secondary: #8b5cf6; /* Secondary purple for regenerate button */
+  --color-background: #fafafa; /* Soft white background */
+  --color-secondaryBg: #ffffff; /* Pure white for card backgrounds */
+  --color-textDark: #111827; /* Charcoal black for main heading */
+  --color-text: #374151; /* Dark gray for body text/labels */
+  --color-textLight: #6b7280; /* Medium gray for subheading */
+  --color-textMuted: #9ca3af; /* Light gray for placeholders */
+  --color-border: #e5e7eb; /* Light border for inputs/cards */
+  --color-borderHover: #d1d5db; /* Medium border for hover states */
+  --color-success: #059669; /* Teal for success states */
+  --color-warning: #d97706; /* Orange for warning states */
+  --color-error: #dc2626; /* Crimson for error states */
+}
+* {
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
