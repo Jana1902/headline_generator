@@ -1,4 +1,4 @@
-import "./app.css";
+import "./App.css";
 import DisplayCard from "./components/DisplayCard";
 import Header from "./components/Header";
 import InputForm from "./components/InputForm";
