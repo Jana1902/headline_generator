@@ -24,3 +24,30 @@ A modern React web application that generates SEO headlines and displays busines
 - **Axios** - HTTP client for making API requests
 - **React Hot Toast** - Beautiful notifications and toasts
 - **Lucide React** - Icon library for modern icons
+  
+---
+
+## 🌐 API Endpoints
+
+### `POST /business-data`
+**Purpose:** Submit business name and location
+
+**Request Body:**
+```json
+{
+  "name": "Business Name",
+  "location": "Location"
+}
+Response:
+{
+  "rating": 4.8,
+  "reviews": 120,
+  "headline": "Your SEO Headline"
+}
+GET /regenerate-headline?name=<name>&location=<location>
+Purpose: Generate a new SEO headline for the submitted business
+
+Response:
+{
+  "headline": "New SEO Headline"
+}
